@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding:0; margin:0;
+    /* font-family: BigShoulders; */
+    font-family: ProximaNova;
+}
+.admin {
+    width:50%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.adminEditInsert {
+    width:100%;
+    margin-bottom:10px;
+}
+.admin input[type="submit"] {
+    margin:20px 0;
+}
+.adminDelete {
+    width:50%;
+    height: 200px;
+    margin: 20px auto;
+}
+.adminDelete input {
+    margin: 10px 0;
+}
+.adminPhones {
+    float:left;
+    width: 40%;
+    height: 512px;
+    font-size: 14px;
+    overflow-y:scroll;
+}
+.adminTable {
+    margin: 5px 30px;
+    border-collapse: collapse;
+}
+.adminMgmt {
+    float:left;
+    margin-top:5px;
+    overflow: hidden;
+    font-size: 14px;
+    color:white;
+    width:20%;
+}
+.adminTable tr {
+    transition: background 0.2s ease-in;
+}
+.adminTable td:first-child {
+    width: 200px;
+}
+.adminTable td {
+    width:50px;
+}
+.adminTable tr:hover {
+    opacity: 0.5;
+}
+.phoneEditButton, .phoneDelButton {
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 5px;
+    color:white;
+    width: 80px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.phoneEditButton a, .phoneDelButton a, .mgmtButtons a, .grpMgmtButtons a {
+    text-decoration: none;
+    color:white;
+}
+.phoneEditButton {
+    background-color: #4CAF50;
+}
+.phoneDelButton {
+    background-color: red;
+}
+.mgmtButtons, .grpMgmtButtons {
+    /* background-color: rgb(95, 76, 69); */
+    margin: 2px 2px;
+    border-radius: 5px;
+    color:white;
+    width: 100px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.grpMgmt {
+    margin-top:5px;
+    float:left;
+    width:40%;
+}
+#editClick {
+    background-color: #4CAF50;
+    color:white;
+    width: 120px;
+    height:30px;
+    text-align:center;
+    border:none;
+    border-radius: 4px;
+}

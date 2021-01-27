@@ -9,18 +9,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page - MOBILshop</title>
-    <link rel="stylesheet" href="http://localhost:8080/projects/itbootcamp/projekat/css/footer.css">
-    <link rel="stylesheet" href="http://localhost:8080/projects/itbootcamp/projekat/css/project.css">
-    <link rel="stylesheet" href="http://localhost:8080/projects/itbootcamp/projekat/css/login.css">
-    <link rel="stylesheet" href="http://localhost:8080/projects/itbootcamp/projekat/css/cart.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cart.css">
     <style>
         @font-face {
             font-family: BigShoulders;
-            src: url('http://localhost:8080/projects/itbootcamp/projekat/fonts/BigShouldersInlineDisplay-Light.ttf');
+            src: url('fonts/BigShouldersInlineDisplay-Light.ttf');
         }
         @font-face {
             font-family: ProximaNova;
-            src: url('http://localhost:8080/projects/itbootcamp/projekat/fonts/ProximaNova-Regular.otf');
+            src: url('fonts/ProximaNova-Regular.otf');
         }
     </style>
 </head>
@@ -76,7 +76,7 @@
     }
     $ob_website->makeMeAFooter();
 ?>
-<script type="text/javascript" src="http://localhost:8080/projects/itbootcamp/projekat/js/searchANDmodal.js"></script>
+<script type="text/javascript" src="js/searchANDmodal.js"></script>
 </body>
 
 </html>
